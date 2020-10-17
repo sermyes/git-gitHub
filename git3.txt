@@ -1,0 +1,16 @@
+git branch // branch 확인
+git branch development // development branch 추가
+git checkout development // development로 branch변경
+git merge development // merge
+
+git rebase --continue // rebase는 나눠진 branch를 하나의 branch로 만들어준다.
+
+merge or rebase는 모든 commit을 가져오지만, cherry-pick은 원하는 commit만 가져온다
+
+git cherry-pick <commitNumber> // 원하는 commit만 가져올 수 있다.
+
+git tag v1.0.0 // 버전 태그를 붙인다.
+ex) git revert v1.0.0 과 같이 commitNumber대신 버전을 사용할 수 있다.
+
+git stash // 임시저장
+ex) branch 실수했을 때, 임시저장 후 branch 옮겨서 다시 불러온다.
