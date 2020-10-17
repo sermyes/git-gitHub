@@ -12,4 +12,9 @@ git restore 파일or폴더명 // 수정이전으로 되돌림
 
 .gitignore // 파일안에 파일명을 넣으면 관리하기 싫은 파일은 미포함.
 
+git commit -m "Initial commit"
 git commit // 현재 상태 기억.
+w: write
+q: quit
+:wq
+
