@@ -28,3 +28,4 @@ git commit 파일1.txt 파일2.txt -m "메세지" // 특정파일들 commit하�
 
 git diff // 파일에서 수정된 부분 확인하기
 
+
