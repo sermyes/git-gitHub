@@ -1,0 +1,15 @@
+git init
+git status
+
+git add 파일명 or 폴더명
+git add . // 전부 추가
+
+git rm --cached -r 폴더명  // add된 폴더전체제거
+git rm --cached 파일명 // add된 파일제거
+git rm -rf 폴더명 // 폴더 아예 삭제
+
+git restore 파일or폴더명 // 수정이전으로 되돌림
+
+.gitignore // 파일안에 파일명을 넣으면 관리하기 싫은 파일은 미포함.
+
+git commit // 현재 상태 기억.
