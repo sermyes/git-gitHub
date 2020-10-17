@@ -1,2 +1,3 @@
 git log // commit 보기
 git shortlog // log짧게 보기
+git
