@@ -1,8 +1,16 @@
-git log // commit 보기
-git shortlog // log짧게 보기
+git remote add <name> <url>
+ex) git remote add origin https://github.com/sermyes/git-gitHub.git
 
-git commit -a // 수정된 파일 commit
-git commit -am "수정메세지" // 수정된 파일 commit하고 메세지까지 바꾸기
-git commit 파일1.txt 파일2.txt -m "메세지" // 특정파일들 commit하기
+git remote get-url origin // remote 확인하기
 
-git diff // 파일에서 수정된 부분 확인하기
+git push origin master // master의 파일을 push한다
+
+git pull origin master // github의 파일을 pull한다.
+
+git reset HEAD~1 <--soft> or <--mixed> or <--hard> // 수정된 파일은 그대로, commit만 하나전으로 돌아감. 
+default는 mixed, soft는 add한 상태로 되돌리고, mixed는 add하기전, hard 수정하기전으로 되돌린다.
+
+git log --graph // 현재 HEAD를 확인
+
+git revert head // commit을 되돌린다.(새로운 커밋으로 생성)
+// reset은 로컬에서 실수한걸 되돌리고, revert는 이미 푸쉬한 상태를 되돌릴 때 사용.
