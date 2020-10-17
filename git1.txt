@@ -18,3 +18,5 @@ w: write
 q: quit
 :wq
 
+git log // commit된것 보기
+
