@@ -18,5 +18,12 @@ w: write
 q: quit
 :wq
 
-git log // commit된것 보기
+git log // commit 보기
+git shortlog // log짧게 보기
+
+git commit -a // 수정된 파일 commit
+git commit -am "수정메세지" // 수정된 파일 commit하고 메세지까지 바꾸기
+git commit 파일1.txt 파일2.txt -m "메세지" // 특정파일들 commit하기
+
+git diff // 파일에서 수정된 부분 확인하기
 
