@@ -1,3 +1,5 @@
 git log // commit 보기
 git shortlog // log짧게 보기
-git
+
+git commit -a // 수정된 파일 commit
+git commit -am "수정메세지" // 수정된 파일 commit하고 메세지까지 바꾸기
